@@ -47,7 +47,10 @@ public class ArrayFiles {
                     throw new NumberFormatException("Number format exception! Are you sure that this is a integer number?");
                 }
             }
+          scanner.close();
+
         }
+        
         else {
             throw new FileNotFoundException("File not found :(");
         }
